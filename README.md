@@ -34,5 +34,5 @@ Requerimientos:
 | Funcionalidad              | 1.5     |
 | Despliegue en Github Pages | 0.5     |
 
-
+# Gabriela Reyes Gonzalez
 # Link pagina: https://dsaw-2024-1.github.io/parcial-primer-corte-Kings0401/
