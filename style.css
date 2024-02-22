@@ -226,3 +226,38 @@
     text-decoration: none;
   }
   
+  /* Media query para dispositivos móviles con una anchura de hasta 480px */
+@media (max-width: 480px) {
+  html {
+    font-size: 50%; /* Reducir el tamaño de fuente para dispositivos móviles */
+  }
+
+  body {
+    min-width: auto; /* Eliminar el mínimo de anchura */
+  }
+
+  main {
+    width: 90%; /* Ajustar el ancho del contenido principal */
+  }
+
+  .card {
+    width: 90%; /* Ajustar el ancho de la tarjeta */
+  }
+
+  h2 {
+    font-size: 3rem; /* Reducir el tamaño del título */
+  }
+
+  .sign-up-card {
+    flex-direction: column-reverse; /* Cambiar la dirección del flexbox para la tarjeta de registro */
+  }
+
+  .sign-up-img,
+  .sign-up-text {
+    width: 100%; /* Establecer el ancho completo para la imagen y el texto de registro */
+  }
+
+  .sign-up-form input {
+    padding: 1rem 1.5rem; /* Reducir el padding de los campos de entrada */
+  }
+}
