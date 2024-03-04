@@ -275,7 +275,7 @@
     padding: 1rem 1.5rem; /* Reducir el padding de los campos de entrada */
   }
 
-  img{
+  #img{
     content: url(./assets/images/mobile.svg);
     border-radius: 5%;
   }
