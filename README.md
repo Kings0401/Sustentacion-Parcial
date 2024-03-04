@@ -35,4 +35,5 @@ Requerimientos:
 | Despliegue en Github Pages | 0.5     |
 
 # Gabriela Reyes Gonzalez
-# Link pagina: https://dsaw-2024-1.github.io/parcial-primer-corte-Kings0401/
+# Link pagina: https://kings0401.github.io/Sustentacion-Parcial/
+# El mensaje de que el correo tiene que empezar con mayuscula y contener al menos 2 numeros lo muestra en consola.
