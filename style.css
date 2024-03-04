@@ -87,6 +87,16 @@
   li {
     line-height: 1.5;
   }
+
+  /*Elementos para el check box*/
+  .checkbox-label {
+    display: flex;
+    align-items: center;
+  }
+
+  .checkbox-label input[type="checkbox"] {/*Añadir un poco de espacion entre el cuadrito y el texto*/
+    margin-right: 5px;
+  }
   
   .btn {
     cursor: pointer;
@@ -136,7 +146,7 @@
   
   .sign-up-list {
     padding: 0 3rem;
-    list-style-image: url("../images/icon-list.svg");
+    list-style-image: url("/assets/images/icon-list.svg");
   
     display: flex;
     flex-direction: column;
@@ -164,6 +174,16 @@
     padding: 1.5rem 2rem;
     border: 0.1rem solid var(--grey);
     border-radius: 0.7rem;
+  }
+
+  .confirmationCheckBox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:1rem;
+    justify-content: space-around;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
   
   .sign-up-form input:focus {
@@ -217,14 +237,8 @@
     align-self: stretch;
     margin-top: auto;
   }
-  
-  
-  .attribution a:link,
-  .attribution a:visited {
-    color: var(--white);
-    padding: 0.1rem;
-    text-decoration: none;
-  }
+
+
   
   /* Media query para dispositivos móviles con una anchura de hasta 480px */
 @media (max-width: 480px) {

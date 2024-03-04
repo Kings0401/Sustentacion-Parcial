@@ -29,10 +29,16 @@ function submitEmail(e) {
 
   // valid email
   if (validateEmail(emailIn.value)) {
-    submittedEmailEl.innerText = emailIn.value;
-    toggleCards();
-    emailIn.value = "";
-    signUpFormEl.classList.remove("error");
+    // Si el checkbox está marcado, mostrar la ventana de éxito
+    if (document.getElementById("agree").checked) {
+      submittedEmailEl.innerText = emailIn.value;
+      toggleCards();
+      emailIn.value = "";
+      signUpFormEl.classList.remove("error");
+    } else {
+      // Si el checkbox no está marcado, mostrar el mensaje en el mismo DOM
+      document.getElementById("no-agree-message").classList.remove("hidden");
+    }
   }
   // invalid email
   else {

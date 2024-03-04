@@ -36,6 +36,14 @@
           <label for="email">Email address</label>
           <input id="email" type="email" placeholder="email@company.com" />
           <span class="error-message">Valid email required</span>
+
+          <!--Aceptacion de los terminos y condiciones-->
+          <div class="checkbox-label">
+            <input id="agree" type="checkbox" />
+            <label for="agree">I agree to the <a href="#">Terms and Conditions</a></label>
+          </div>
+
+
           <button class="btn submit-btn">
             Subscribe to monthly newsletter
           </button>
@@ -48,6 +56,13 @@
       />
     </div>
     <!-- Sign-up form end -->
+
+    <!--Confirmacion del CheckBox-->
+    <div class="card confirmationCheckBox hidden" id="no-agree-message">
+      <h2>Upss! </h2>
+      <p>No aceptaste la política de datos</p>
+      <button class="btn volver-home">Volver</button>
+    </div>
 
     <!-- Success message start -->
     <div class="card success-card hidden">
@@ -66,9 +81,5 @@
   </div>
   <!-- JS -->
   <script src="./script.js"></script>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Gabriela Reyes</a>.
-  </div>
 </body>
 </html>
