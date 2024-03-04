@@ -276,7 +276,7 @@
   }
 
   img{
-    content: url(/assets/images/illustration-sign-up-mobile.svg);
+    content: url(/assets/images/mobile.svg);
     border-radius: 5%;
   }
 }
