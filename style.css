@@ -274,4 +274,9 @@
   .sign-up-form input {
     padding: 1rem 1.5rem; /* Reducir el padding de los campos de entrada */
   }
+
+  img{
+    content: url(/assets/images/illustration-sign-up-mobile.svg);
+    border-radius: 5%;
+  }
 }
